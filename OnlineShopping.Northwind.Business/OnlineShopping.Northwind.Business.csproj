@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShopping.Core\OnlineShopping.Core.csproj" />
+    <ProjectReference Include="..\OnlineShopping.Northwind.DataAccess\OnlineShopping.Northwind.DataAccess.csproj" />
+    <ProjectReference Include="..\OnlineShopping.Northwind.Entity\OnlineShopping.Northwind.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
